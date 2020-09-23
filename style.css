@@ -25,8 +25,20 @@ body {
 .overlay::before{
   background-color: rgba(0,0,0,.7);
 }
-
-
+.login-btn{
+  color: #ffffff ; 
+  background-color: rgba(0,0,0,.0941176);
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding: 12px 20px !important;
+}
+.signup-btn{
+  color: #ffffff;
+  padding: 12px 20px !important;
+}
+.no-click {
+    pointer-events: none;
+}
 
 /*------------------------------ vertical bootstrap slider----------------------------*/
 
@@ -126,4 +138,59 @@ body {
 .circle h1 {
   text-align: center;
   padding-top: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .topSpacing {
+  margin-top: 52% !important;
+}
+  .login-btn{
+  color: #ffffff ; 
+  background-color: rgba(0,0,0,.0941176);
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding: 12px 20px !important;
+  width: 80px;
+}
+.showcase .blogs-section .blogs-graphic{transform-origin:0 0;transform:scale(.3) !important;}
+.showcase .blogs-section .section-wrapper {
+    margin-left: 53px !important;
+    margin-top: 120px;
+}
+  .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-weight: bold;
+  color: white;
+}
+
+.bottom-footer {
+  background-color: #00cf35;
+  text-align: center;
+  height: 50px;
+}
+
+.top-footer a {
+  color: white;
+  padding: 10px;
+}
+
+.main-circle {
+  height: 100px;
+  width: 80px;
+}
+
+.circle {
+  height: 80px;
+  width: 80px;
+  border-radius: 100px;
+  background-color: white;
+  color: #ff8a00;
+}
+
+.circle h1 {
+  text-align: center;
+  padding-top: 20px;
+}
 }
